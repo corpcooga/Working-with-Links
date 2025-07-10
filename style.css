@@ -4,3 +4,8 @@
 	padding: 10px;
 	line-height: 2;
 }
+
+/* makes visited links purple */
+a:visited {
+	color: purple;
+}
