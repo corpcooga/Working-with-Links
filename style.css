@@ -1,11 +1,30 @@
-/* made filler text take up more space so you can scroll */
+body {
+	background-color: rgb(254, 255, 172);
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+/* filler text takes up more space so you can scroll */
 .filler {
 	font-size: 20px;
 	padding: 10px;
 	line-height: 2;
+	color: #333;
+}
+
+h1 {
+	color: hotpink;
+}
+
+a {
+	color: green;
 }
 
 /* makes visited links purple */
 a:visited {
 	color: purple;
+}
+
+/* makes links purple upon hover */
+a:hover {
+	color: orange;
 }
